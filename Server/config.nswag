@@ -1,5 +1,5 @@
 {
-  "runtime": "Net50",
+  "runtime": "Net60",
   "defaultVariables": null,
   "documentGenerator": {
     "aspNetCoreToOpenApi": {
@@ -28,6 +28,8 @@
       "generateAbstractSchemas": true,
       "ignoreObsoleteProperties": false,
       "allowReferencesWithProperties": false,
+      "useXmlDocumentation": true,
+      "resolveExternalXmlDocumentation": true,
       "excludedTypeNames": [],
       "serviceHost": null,
       "serviceBasePath": null,
@@ -45,6 +47,8 @@
       "useDocumentProvider": true,
       "documentName": "v1",
       "aspNetCoreEnvironment": null,
+      "createWebHostBuilderMethod": null,
+      "startupType": null,
       "allowNullableBodyParameters": true,
       "useHttpAttributeNameAsOperationId": false,
       "output": "wwwroot/api/v1/specification.json",
@@ -141,7 +145,6 @@
       "typeNameGeneratorType": null,
       "propertyNameGeneratorType": null,
       "enumNameGeneratorType": null,
-      "checksumCacheEnabled": false,
       "serviceHost": null,
       "serviceSchemes": null,
       "output": "../Client/Services/BlazorDemoApiClients.g.cs",
